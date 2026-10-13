@@ -238,10 +238,8 @@ a:hover { color: #ffffff; }
 /* event speakers */
 .section--speakers { background: radial-gradient(70% 100% at 50% 0%, rgba(25, 227, 208, 0.06), transparent 78%); border-block: 1px solid var(--line); }
 .speaker { padding: 10px; overflow: hidden; }
-.speaker__photo { aspect-ratio: 4 / 3; overflow: hidden; border-radius: 10px; border: 1px solid var(--line-2); background: radial-gradient(80% 90% at 50% 28%, rgba(92, 242, 155, 0.16), transparent 72%), #101c1e; }
-.speaker__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; transition: transform 0.5s cubic-bezier(0.16, 0.84, 0.3, 1); }
-.speaker:hover .speaker__photo img { transform: scale(1.04); }
-.speaker:nth-child(5) .speaker__photo img { object-position: center 24%; }
+.speaker__photo { aspect-ratio: 1; overflow: hidden; border-radius: 10px; border: 1px solid var(--line-2); background: radial-gradient(80% 90% at 50% 28%, rgba(92, 242, 155, 0.16), transparent 72%), #101c1e; }
+.speaker__photo img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .speaker__body { padding: 16px 12px 12px; }
 .speaker__body p { margin-top: 5px; color: #b7c9c3; }
 
