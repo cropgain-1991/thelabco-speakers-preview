@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    .l{stroke:#38D9F5;stroke-width:2;stroke-dasharray:1;animation:draw 1.4s cubic-bezier(.6,0,.2,1) backwards}
+    .w{stroke:#FFFFFF}
+    .n{animation:show .5s ease 1.3s backwards}
+    .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}.d7{animation-delay:.95s}
+    @keyframes draw{from{stroke-dashoffset:1}}
+    @keyframes show{from{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l,.n{animation:none}}
+  </style>
+  <circle class="l d1" pathLength="1" cx="70" cy="80" r="30" stroke-opacity=".8"/>
+  <circle class="n" cx="63" cy="85" r="6.0" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d2" pathLength="1" cx="150" cy="60" r="22" stroke-opacity=".8"/>
+  <circle class="n" cx="145" cy="64" r="4.4" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d3" pathLength="1" cx="120" cy="150" r="26" stroke-opacity=".8"/>
+  <circle class="n" cx="114" cy="155" r="5.2" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d4" pathLength="1" cx="300" cy="70" r="26" stroke-opacity=".8"/>
+  <circle class="n" cx="294" cy="75" r="5.2" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d5" pathLength="1" cx="330" cy="160" r="30" stroke-opacity=".8"/>
+  <circle class="n" cx="323" cy="165" r="6.0" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d6" pathLength="1" cx="55" cy="185" r="20" stroke-opacity=".8"/>
+  <circle class="n" cx="51" cy="189" r="4.0" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d6" pathLength="1" cx="245" cy="200" r="22" stroke-opacity=".8"/>
+  <circle class="n" cx="240" cy="204" r="4.4" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l d6" pathLength="1" cx="180" cy="205" r="18" stroke-opacity=".8"/>
+  <circle class="n" cx="176" cy="208" r="3.6" fill="#38D9F5" fill-opacity=".8"/>
+  <circle class="l w d7" pathLength="1" cx="215" cy="110" r="34"/>
+  <circle class="n" cx="215" cy="110" r="9" fill="#FFFFFF"/>
+  <g class="n" style="animation-delay:1.9s"><circle cx="215" cy="110" r="48" stroke="#38D9F5" stroke-width="1.5" stroke-dasharray="3 9"/></g>
+</svg>

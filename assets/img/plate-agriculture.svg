@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    .l{stroke:#6EF2A0;stroke-width:2;stroke-dasharray:1;animation:draw 1.4s cubic-bezier(.6,0,.2,1) backwards}
+    .w{stroke:#FFFFFF}
+    .n{animation:show .5s ease 1.3s backwards}
+    .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}.d7{animation-delay:.95s}
+    @keyframes draw{from{stroke-dashoffset:1}}
+    @keyframes show{from{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l,.n{animation:none}}
+  </style>
+  <path class="l d1" pathLength="1" d="M-10 28 C 90 4, 210 52, 410 22" stroke-opacity=".8"/>
+  <path class="l d1" pathLength="1" d="M-10 53 C 90 29, 210 77, 410 47" stroke-opacity=".8"/>
+  <path class="l d2" pathLength="1" d="M-10 78 C 90 54, 210 102, 410 72" stroke-opacity=".8"/>
+  <path class="l d2" pathLength="1" d="M-10 103 C 90 79, 210 127, 410 97" stroke-opacity=".8"/>
+  <path class="l d3" pathLength="1" d="M-10 128 C 90 104, 210 152, 410 122" stroke-opacity=".8"/>
+  <path class="l w d7" pathLength="1" d="M-10 153 C 90 129, 210 177, 410 147"/>
+  <path class="l d4" pathLength="1" d="M-10 178 C 90 154, 210 202, 410 172" stroke-opacity=".8"/>
+  <path class="l d4" pathLength="1" d="M-10 203 C 90 179, 210 227, 410 197" stroke-opacity=".8"/>
+  <path class="l d5" pathLength="1" d="M-10 228 C 90 204, 210 252, 410 222" stroke-opacity=".8"/>
+  <g class="n" style="animation-delay:1.9s"><circle cx="262" cy="158" r="14" stroke="#FFFFFF" stroke-width="2"/><circle cx="262" cy="158" r="5.5" fill="#FFFFFF"/></g>
+</svg>

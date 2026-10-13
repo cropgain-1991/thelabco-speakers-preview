@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    .l{stroke:#FFC857;stroke-width:2;stroke-dasharray:1;animation:draw 1.4s cubic-bezier(.6,0,.2,1) backwards}
+    .w{stroke:#FFFFFF}
+    .n{animation:show .5s ease 1.3s backwards}
+    .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}.d7{animation-delay:.95s}
+    @keyframes draw{from{stroke-dashoffset:1}}
+    @keyframes show{from{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l,.n{animation:none}}
+  </style>
+  <path class="l d1" pathLength="1" d="M30 60 H130 L190 120 H280 L330 70 H375" stroke-opacity=".85"/>
+  <path class="l d3" pathLength="1" d="M30 200 H110 L190 120" stroke-opacity=".85"/>
+  <path class="l w d7" pathLength="1" d="M190 120 V170 L230 210 H375"/>
+  <circle class="n" cx="30" cy="60" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" cx="130" cy="60" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" cx="280" cy="120" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" cx="375" cy="70" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" cx="30" cy="200" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" cx="110" cy="200" r="7" fill="#0A1315" stroke="#FFC857" stroke-width="2"/>
+  <circle class="n" style="animation-delay:2.1s" cx="230" cy="210" r="7" fill="#0A1315" stroke="#FFFFFF" stroke-width="2"/>
+  <circle class="n" style="animation-delay:2.1s" cx="375" cy="210" r="7" fill="#0A1315" stroke="#FFFFFF" stroke-width="2"/>
+  <circle class="n" cx="190" cy="120" r="13" fill="#0A1315" stroke="#FFFFFF" stroke-width="2"/>
+  <circle class="n" cx="190" cy="120" r="5" fill="#FFFFFF"/>
+</svg>

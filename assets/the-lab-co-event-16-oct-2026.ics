@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lab Co Pty Ltd//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ai-health-agriculture-supply-chains-20261016@thelabco.com.au
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Transforming Health\, Agriculture & Supply Chains through AI
+LOCATION:The Ballroom\, Sydney Central Hotel\, 169-179 Thomas Street\, Sy
+ dney NSW 2000\, Australia
+DESCRIPTION:An invitation-only event by The Lab Co on how artificial inte
+ lligence is transforming healthcare\, agriculture and global supply chai
+ ns.\nhttps://thelabco.com.au/event.html
+URL:https://thelabco.com.au/event.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
