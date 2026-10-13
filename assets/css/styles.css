@@ -378,7 +378,12 @@ a.sponsor:hover, a.sponsor:focus-visible { color: inherit; }
   .hero--home .core__chip { display: none; }
 }
 @media (max-width: 759px) {
-  .nav__link { display: none; }
+  html { scroll-padding-top: 120px; }
+  .site-header__row { flex-wrap: wrap; gap: 0; padding-top: 10px; }
+  .site-header .brand { margin-bottom: 10px; }
+  .nav { width: 100%; gap: 18px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; border-top: 1px solid var(--line); }
+  .nav__link { display: inline-flex; flex: none; padding-block: 10px; }
+  .nav .btn { flex: none; }
 }
 @media (max-width: 480px) {
   .sponsor { width: calc(50% - 6px); }
